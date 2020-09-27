@@ -64,3 +64,19 @@ git pull拉取最新的
 
 git branch --set-upstream dev origin/dev 与远程分支建立连接
 
+
+移除现有仓库
+git remote rm origin
+
+
+关联码云和github仓库
+     关联GitHub的远程库
+     git remote add github git@github.com:Jackson0714/PassJava-Learning.git
+     关联码云的远程库
+     git remote add gitee git@gitee.com:jayh2018/PassJava-Learning.git
+查看关联的仓库
+git remote -v
+
+用git命令推送
+git push github master
+git push gitee master
